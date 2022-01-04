@@ -1,0 +1,15 @@
+git 프로그램으로 환경설정
+git config --global user.name "MINJAE JEON" // 이름 설정
+git config --global user.email "wjsalswo985@naver.com" // github 주소 설정
+git config --list
+visual code 에서 터미널로 환경설정
+git init // 초기화
+git add . // '.'이라는것은 파일 전부를 뜻함 git add는 명령어로 파일을 올림
+git status // 현재 상태
+git commit -m "first commit" // 첫번째 결과물
+git remote add origin https://github.com/wjsalswo48/ZARE-project.git // 업로드할 깃허브 주소(visual studio와 github의 연결고리)
+git remote -v // 연결고리 확인하는 방법
+git push origin master // 파일 업로드
+git add . // 새로 추가한 코드 업로드
+git commit -m "second commit" // 두번째 결과물
+git push origin master // 파일 업로드 
